@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace eCommercePlatform
 {
-    class Consumer
+    public class Consumer
     {
+        public string firstName;
+        public string lastName;
+        ShoppingCart shoppingCart;
     }
 }

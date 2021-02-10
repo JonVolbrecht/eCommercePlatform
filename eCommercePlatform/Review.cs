@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace eCommercePlatform
 {
-    class Review
+    public class Review
     {
+        public double rating;
+        public string text;
+
     }
 }

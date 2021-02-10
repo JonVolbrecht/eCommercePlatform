@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace eCommercePlatform
 {
-    class ShoppingCart
+    public class ShoppingCart
     {
+        List<Product> products;
+        public double totalCostProducts;
     }
 }
