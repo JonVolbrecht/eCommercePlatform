@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 namespace eCommercePlatform
 {
     class Program
-    {
+    { 
         static void Main(string[] args)
         {
+
         }
     }
 }

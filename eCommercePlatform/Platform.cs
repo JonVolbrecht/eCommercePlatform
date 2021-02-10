@@ -6,8 +6,24 @@ using System.Threading.Tasks;
 
 namespace eCommercePlatform
 {
-    public class Platform
+    class Platform
     {
+        //Variables
         List<Product> inventory;
+
+        //ctor
+        public Platform()
+        {
+            inventory = new List<Product>();
+        }
+
+        //Methods
+        private Product CreateProduct(int uniqueIdentifier, string name, string category, double price, double averageRating)
+        {
+            Product product = new Product(uniqueIdentifier, name, category, averageRating);
+
+            return product;
+
+        }
     }
 }
