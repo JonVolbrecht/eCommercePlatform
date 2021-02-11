@@ -22,7 +22,22 @@ namespace eCommercePlatform
         }
 
         //Methods
+        public ShoppingCart CreateShoppingCart(double totalCostProducts)
+        {
+            ShoppingCart shoppingCart = new ShoppingCart(totalCostProducts);
 
+            return shoppingCart;
+        }
+
+        private 
+    
+    
+    
+    
+    
+    
+    
+    
     }
 
     

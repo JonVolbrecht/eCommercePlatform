@@ -16,6 +16,7 @@ namespace eCommercePlatform
 		public double averageRating;
 		List<Review> reviews;
 
+        
         //ctor
         public Product(int uniqueIdentifier, string name, string category, double price, double averageRating)
         {
